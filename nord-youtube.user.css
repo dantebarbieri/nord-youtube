@@ -1,0 +1,146 @@
+@-moz-document domain("youtube.com") {
+/* NORD COLOR SCHEME */
+/*
+Nord 0: #2e3440
+Nord 1: #3b4252
+Nord 2: #434c5e
+Nord 3: #4c566a
+Nord 4: #d8dee9
+Nord 5: #e5e9f0
+Nord 6: #eceff4
+Nord 7: #8fbcbb
+Nord 8: #88c0d0
+Nord 9: #81a1c1
+Nord 10: #5e81ac
+Nord 11: #bf616a
+Nord 12: #d08770
+Nord 13: #ebcb8b
+Nord 14: #a3be8c
+Nord 15: #b48ead
+*/
+
+#movie_player {
+    border-radius: 4em;
+}
+
+#thumbnail {
+    border-radius: 2em;
+}
+
+ytd-thumbnail::before {
+    border-radius: 2em;
+}
+
+ytd-app {
+    background-color: #2e3440;
+}
+
+ytd-masthead, paper-listbox {
+    background-color: #3b4252;
+}
+
+#guide-content.ytd-app {
+    background-color: #434c5e;
+}
+
+paper-listbox yt-formatted-string.ytd-menu-service-item-renderer, paper-listbox yt-formatted-string.ytd-menu-navigation-item-renderer {
+    color: #e5e9f0;
+}
+
+paper-listbox yt-icon.ytd-menu-service-item-renderer, paper-listbox yt-icon.ytd-menu-navigation-item-renderer {
+    color: #d8dee9;
+}
+
+yt-formatted-string, #content-text.ytd-comment-renderer, .content.ytd-video-secondary-info-renderer, yt-icon, .yt-icon-container.yt-icon {
+    color: #eceff4;
+}
+
+#video-title, yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string:visited, #author-text.yt-simple-endpoint.ytd-comment-renderer {
+    color: #e5e9f0;
+}
+
+#metadata-line.ytd-video-meta-block, span.yt-view-count-renderer, .more-button.ytd-video-secondary-info-renderer, .less-button.ytd-video-secondary-info-renderer, yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
+    color: #d8dee9;
+}
+
+a, a.yt-simple-endpoint.yt-formatted-string {
+    color: #b48ead;
+}
+
+paper-toggle-button[checked]:not([disabled]) .toggle-button.paper-toggle-button {
+    background-color: #5e81ac;
+}
+
+.toggle-button.paper-toggle-button {
+    background-color: #434c5e;
+}
+
+#menu-container yt-icon, .more-button.ytd-comment-renderer, .less-button.ytd-comment-renderer {
+    fill: #8fbcbb;
+    stroke: #8fbcbb;
+    color: #8fbcbb;
+}
+
+#menu-container .style-default-active yt-icon {
+    fill: #ebcb8b;
+    stroke: #ebcb8b;
+}
+
+#menu-container yt-formatted-string, #menu-container #content-text.ytd-comment-renderer, #menu-container .content.ytd-video-secondary-info-renderer {
+    color: #ebcb8b;
+}
+
+#menu-container ytd-toggle-button-renderer.style-text[is-icon-button] #text.ytd-toggle-button-renderer, #menu-container ytd-button-renderer.style-text[is-icon-button] #text.ytd-button-renderer, ytd-button-renderer.style-default[is-icon-button] #text.ytd-button-renderer, ytd-button-renderer.style-opacity[is-icon-button] #text.ytd-button-renderer {
+    color: #8fbcbb;
+}
+
+#container.ytd-sentiment-bar-renderer {
+    background-color: #bf616a
+}
+
+ytd-sentiment-bar-renderer[activated_] #like-bar.ytd-sentiment-bar-renderer {
+    background-color: #a3be8c
+}
+
+#like-button, ytd-comment-action-buttons-renderer {
+    color: #a3be8c;
+}
+
+#dislike-button {
+    color: #bf616a;
+}
+
+#owner-sub-count.ytd-video-owner-renderer, yt-icon.ytd-badge-supported-renderer {
+    color: #88c0d0;
+}
+
+paper-button.ytd-subscribe-button-renderer {
+    background-color: #bf616a;
+}
+
+#container.ytd-searchbox input.ytd-searchbox {
+    color: #eceff4;
+}
+
+#search-input.ytd-searchbox-spt input, #container.ytd-searchbox {
+    background-color: #4c566a;
+}
+
+#container.ytd-searchbox, #container.ytd-searchbo {
+    border-color: #4c566a;
+}
+
+#search-icon-legacy.ytd-searchbox {
+    background-color: #434c5e;
+    border-color: #434c5e;
+}
+
+ytd-multi-page-menu-renderer, ytd-active-account-header-renderer {
+    background-color: #2e3440;
+    color: #e5e9f0;
+}
+
+yt-chip-cloud-chip-renderer[chip-style="STYLE_DEFAULT"][selected], yt-chip-cloud-chip-renderer[chip-style="STYLE_HOME_FILTER"][selected] {
+    background-color: #81a1c1;
+}
+}
