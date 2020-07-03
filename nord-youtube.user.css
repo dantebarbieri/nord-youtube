@@ -18,7 +18,7 @@ Nord 14: #a3be8c
 Nord 15: #b48ead
 */
 
-#movie_player {
+:not(#player-theater-container) #movie_player {
     border-radius: 1.3em;
 }
 
